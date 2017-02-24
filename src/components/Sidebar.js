@@ -78,12 +78,12 @@ export default class Sidebar extends React.Component {
             <div>
                 {this.state.mobile
                     ? <AppBar
-                            title="WipeHero Dashboard"
+                            title="MPID HealthHack"
                             style={style.appbar}
                             onLeftIconButtonTouchTap={this.toggleOpenDrawer}
                             iconClassNameRight="muidocs-icon-navigation-expand-more"/>
                     : <AppBar
-                        title="WipeHero Dashboard"
+                        title="MPID HealthHack"
                         style={style.appbar}
                         showMenuIconButton={false}/>}
                 <Drawer
